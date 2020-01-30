@@ -1,0 +1,3 @@
+﻿  report3-1.c
+C:\Users\sangmin\Desktop\DKU_git\programming\report3\report3\report3-1.c(18,6): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  report3.vcxproj -> C:\Users\sangmin\Desktop\DKU_git\programming\report3\Debug\report3.exe
