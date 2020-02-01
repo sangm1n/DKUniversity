@@ -1,0 +1,51 @@
+<!-- menubar practice by sangmin -->
+<!-- inline-block 이용해서 구현 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		ul {
+			background: olive;
+			padding: 0; margin: 0;
+		}
+		ul li {
+			display: inline-block;
+			list-style-type: none;
+			padding: 0 15px;
+		}
+		ul li a {
+			color: white;
+			text-decoration: none;
+		}
+		ul li:hover ul {
+			display: block;
+		}
+		ul li ul {
+			display: none;
+			position: absolute;
+		}
+		ul li ul li {
+			display: block;
+		}
+		ul li ul li a:hover {
+			color: violet
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#">Home</a>
+			<ul class="hidden">
+				<li><a href="#">에스프레소</a></li>
+				<li><a href="#">카푸치노</a></li>
+				<li><a href="#">카페라떼</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Espresso</a></li>
+		<li><a href="#">Cappuccino</a></li>
+		<li><a href="#">Cafe Latte</a></li>
+		<li><a href="#">F.A.Q</a></li>
+	</ul>
+</body>
+</html>
