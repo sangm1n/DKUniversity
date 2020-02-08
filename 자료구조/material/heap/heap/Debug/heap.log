@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  heap.cpp
+c:\18-2자료구조\heap\heap\heap.cpp(37): warning C5037: 'MaxHeap<Type>::MaxHeap': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+  heap.vcxproj -> C:\18-2자료구조\heap\Debug\heap.exe
