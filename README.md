@@ -1,4 +1,4 @@
 # DanKook University, department of software
-## reports and projects <br><br>
+## records of university homework and project <br><br>
 #### contact
 > dltkd96als@naver.com
