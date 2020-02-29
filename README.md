@@ -1,4 +1,4 @@
 # DanKook University, department of software
-> homework and project <br><br>
+> homework and project
 ## contact
 > dltkd96als@naver.com
