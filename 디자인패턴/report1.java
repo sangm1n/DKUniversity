@@ -1,17 +1,14 @@
-package chapter2;
-
-
 /*
- *  2020.03.23 °¡À§¹ÙÀ§º¸°ÔÀÓ
+ *  2020.03.23 ê°€ìœ„ë°”ìœ„ë³´ê²Œì„
  *  by. sangmin
  */
 import java.util.Scanner;
 
 public class Homework {
 	public static void main(String[] args) {
-		System.out.println("<<<<< °¡À§ ¹ÙÀ§ º¸ °ÔÀÓ (ºñ±æ ½Ã ´Ù½Ã) >>>>>\n");
+		System.out.println("<<<<< ê°€ìœ„ ë°”ìœ„ ë³´ ê²Œì„ (ë¹„ê¸¸ ì‹œ ë‹¤ì‹œ) >>>>>\n");
 		
-		// ¹İº¹¹®À» ½ÇÇàÇÏ±â À§ÇÑ Á¶°Ç º¯¼ö go
+		// ë°˜ë³µë¬¸ì„ ì‹¤í–‰í•˜ê¸° ìœ„í•œ ì¡°ê±´ ë³€ìˆ˜ go
 		int go = 0;
 		
 		while(go == 0) {
@@ -19,71 +16,71 @@ public class Homework {
 			Scanner scanner = new Scanner(System.in);
 			String pA = scanner.next();
 			
-			// A°¡ °¡À§, ¹ÙÀ§, º¸ Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÑ °æ¿ì
-			if (pA.equals("°¡À§") | pA.equals("¹ÙÀ§") | pA.equals("º¸")) {
+			// Aê°€ ê°€ìœ„, ë°”ìœ„, ë³´ ì¤‘ í•˜ë‚˜ë¥¼ ì…ë ¥í•œ ê²½ìš°
+			if (pA.equals("ê°€ìœ„") | pA.equals("ë°”ìœ„") | pA.equals("ë³´")) {
 				while(true) {
 					System.out.print("person-B >> ");
 					String pB = scanner.next();
 					
-					// B°¡ °¡À§, ¹ÙÀ§, º¸ Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÑ °æ¿ì
-					if (pB.equals("°¡À§") | pB.equals("¹ÙÀ§") | pB.equals("º¸")) {
-						// switch¹®¿¡¼­ ºñ±âÁö ¾ÊÀº °æ¿ì go º¯¼ö¿¡ 1À» ´ëÀÔÇÏ¿© °ÔÀÓ Á¾·á
-						// ºñ±ä °æ¿ì go º¯¼ö´Â ±×´ë·Î 0ÀÌ¹Ç·Î °è¼ÓÇØ¼­ °ÔÀÓ ¹İº¹
+					// Bê°€ ê°€ìœ„, ë°”ìœ„, ë³´ ì¤‘ í•˜ë‚˜ë¥¼ ì…ë ¥í•œ ê²½ìš°
+					if (pB.equals("ê°€ìœ„") | pB.equals("ë°”ìœ„") | pB.equals("ë³´")) {
+						// switchë¬¸ì—ì„œ ë¹„ê¸°ì§€ ì•Šì€ ê²½ìš° go ë³€ìˆ˜ì— 1ì„ ëŒ€ì…í•˜ì—¬ ê²Œì„ ì¢…ë£Œ
+						// ë¹„ê¸´ ê²½ìš° go ë³€ìˆ˜ëŠ” ê·¸ëŒ€ë¡œ 0ì´ë¯€ë¡œ ê³„ì†í•´ì„œ ê²Œì„ ë°˜ë³µ
 						switch(pA) {
-						case "°¡À§":
+						case "ê°€ìœ„":
 							switch(pB) {
-							case "°¡À§":
-								System.out.println("°á°ú : ºñ°å½À´Ï´Ù.");
+							case "ê°€ìœ„":
+								System.out.println("ê²°ê³¼ : ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 								break;
-							case "¹ÙÀ§":
-								System.out.println("°á°ú : B°¡ ÀÌ°å½À´Ï´Ù.");
+							case "ë°”ìœ„":
+								System.out.println("ê²°ê³¼ : Bê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 								go = 1;
 								break;
-							case "º¸":
-								System.out.println("°á°ú : A°¡ ÀÌ°å½À´Ï´Ù.");
+							case "ë³´":
+								System.out.println("ê²°ê³¼ : Aê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 								go = 1;
 								break;
 							}
 							break;
-						case "¹ÙÀ§":
+						case "ë°”ìœ„":
 							switch(pB) {
-							case "°¡À§":
-								System.out.println("°á°ú : A°¡ ÀÌ°å½À´Ï´Ù.");
+							case "ê°€ìœ„":
+								System.out.println("ê²°ê³¼ : Aê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 								go = 1;
 								break;
-							case "¹ÙÀ§":
-								System.out.println("°á°ú : ºñ°å½À´Ï´Ù.");
+							case "ë°”ìœ„":
+								System.out.println("ê²°ê³¼ : ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 								break;
-							case "º¸":
-								System.out.println("°á°ú : B°¡ ÀÌ°å½À´Ï´Ù.");
+							case "ë³´":
+								System.out.println("ê²°ê³¼ : Bê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 								go = 1;
 								break;
 							}
 							break;
-						case "º¸":
+						case "ë³´":
 							switch(pB) {
-							case "°¡À§":
-								System.out.println("°á°ú : B°¡ ÀÌ°å½À´Ï´Ù.");
+							case "ê°€ìœ„":
+								System.out.println("ê²°ê³¼ : Bê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 								go = 1;
 								break;
-							case "¹ÙÀ§":
-								System.out.println("°á°ú : A°¡ ÀÌ°å½À´Ï´Ù.");
+							case "ë°”ìœ„":
+								System.out.println("ê²°ê³¼ : Aê°€ ì´ê²¼ìŠµë‹ˆë‹¤.");
 								go = 1;
 								break;
-							case "º¸":
-								System.out.println("°á°ú : ºñ°å½À´Ï´Ù");
+							case "ë³´":
+								System.out.println("ê²°ê³¼ : ë¹„ê²¼ìŠµë‹ˆë‹¤");
 								break;
 							}
 							break;
 						}
 						break;
 					}
-					// B°¡ °¡À§, ¹ÙÀ§, º¸ ÀÌ¿ÜÀÇ ¹®ÀÚ¸¦ ÀÔ·ÂÇÑ °æ¿ì ¹İº¹¹® °è¼Ó ¼öÇà
+					// Bê°€ ê°€ìœ„, ë°”ìœ„, ë³´ ì´ì™¸ì˜ ë¬¸ìë¥¼ ì…ë ¥í•œ ê²½ìš° ë°˜ë³µë¬¸ ê³„ì† ìˆ˜í–‰
 					else
 						continue;
 				}
 			}			
-			// A°¡ °¡À§, ¹ÙÀ§, º¸ ÀÌ¿ÜÀÇ ¹®ÀÚ¸¦ ÀÔ·ÂÇÑ °æ¿ì ¹İº¹¹® °è¼Ó ¼öÇà
+			// Aê°€ ê°€ìœ„, ë°”ìœ„, ë³´ ì´ì™¸ì˜ ë¬¸ìë¥¼ ì…ë ¥í•œ ê²½ìš° ë°˜ë³µë¬¸ ê³„ì† ìˆ˜í–‰
 			else
 				continue;
 		}
