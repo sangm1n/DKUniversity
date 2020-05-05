@@ -7,4 +7,7 @@ public class Sport extends AbstractCar {
 	public Sport(Engine engine, Vehicle.Colour colour) {
 		super(engine);
 	}
+	public int getPrice() {
+		return 8000;
+	}
 }

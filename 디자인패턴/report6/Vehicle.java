@@ -5,4 +5,5 @@ public interface Vehicle {
 	public Engine getEngine();
 	public Vehicle.Colour getColour();
 	public void paint(Vehicle.Colour colour);
+	public int getPrice();
 }
