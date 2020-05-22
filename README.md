@@ -5,7 +5,7 @@
 | :---: | :---: | --- | --- |
 | 2020 | 1 | 컴퓨터그래픽스 | [Computer Graphics](https://github.com/sangm1n/DKUniversity/tree/master/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4) |
 | 2020 | 1 | 디자인패턴 | [Design Pattern](https://github.com/sangm1n/DKUniversity/tree/master/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4) |
-| 2020 | 1 | 오픈소스SW활용 | [Open Source SW Contribution](https://github.com/sangm1n/DKUniversity/tree/master/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4SW%ED%99%9C%EC%9A%A9) |
+| 2020 | 1 | 오픈소스SW활용 | [Open Source SW Utilization](https://github.com/sangm1n/DKUniversity/tree/master/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4SW%ED%99%9C%EC%9A%A9) |
 | 2020 | 1 | 시큐어코딩 | Secure Coding |
 | 2020 | 1 | 실무중심산학협력프로젝트1 | Industrial Cooperative Project1 |
 | 2019 | 2 | 웹프로그래밍 | [Web Programming](https://github.com/sangm1n/DKUniversity/tree/master/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D) |
