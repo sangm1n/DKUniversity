@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0;
+		}
+		canvas {
+			width: 100%, height: 100%;
+		}
+		#head {
+			position: absolute;
+			display: block;
+			z-index: 99;
+			left: 30%;
+			top: 5%;
+		}
+		#tail {
+			position: absolute;
+			display: block;
+			z-index: 99;
+			left: 30%;
+			top: 10%;
+		}
+		#leftFront {
+			position: absolute;
+			display: block;
+			z-index: 99;
+			left: 45%;
+			top: 5%;
+		}
+		#rightFront {
+			position: absolute;
+			display: block;
+			z-index: 99;
+			left: 45%;
+			top: 10%;
+		}
+		#leftBack {
+			position: absolute;
+			display: block;
+			z-index: 99;
+			left: 60%;
+			top: 5%;
+		}
+		#rightBack {
+			position: absolute;
+			display: block;
+			z-index: 99;
+			left: 60%;
+			top: 10%;
+		}
+	</style>
+</head>
+<body>
+	<button id="head" onclick="moveHead()">머리 흔들기</button>
+	<button id="tail" onclick="moveTail()">꼬리 흔들기</button>
+	<button id="leftFront" onclick="moveLeftFrontLeg()">왼쪽 앞다리</button>
+	<button id="rightFront" onclick="moveRightFrontLeg()">오른쪽 앞다리</button>
+	<button id="leftBack" onclick="moveLeftBackLeg()">왼쪽 뒷다리</button>
+	<button id="rightBack" onclick="moveRightBackLeg()">오른쪽 뒷다리</button>
+
+	<script src="three.js"></script>
+	<script src="OrbitControls.js"></script>
+
+	<script src="model.js"></script>
+	<script src="moving.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
