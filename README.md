@@ -14,7 +14,7 @@
 | 2019 | 2 | 고급프로그래밍 | [Advanced Programming](https://github.com/sangm1n/DKUniversity/tree/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D) |
 | 2019 | 2 | 실무중심산학협력프로젝트2 | [Industrial Cooperative Project2](https://github.com/sangm1n/LookForClothes) |
 | 2019 | 1 | 컴퓨터네트워크 | [Computer Network](https://github.com/sangm1n/DKUniversity/tree/master/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC) |
-| 2019 | 1 | 알고리즘 | Algorithm |
+| 2019 | 1 | 알고리즘 | [Algorithm](https://github.com/sangm1n/DKUniversity/tree/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) |
 | 2019 | 1 | 운영체제 | [Operating Systems](https://github.com/sangm1n/DKUniversity/tree/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C) |
 | 2019 | 1 | 모바일플랫폼 | [Mobile Platform](https://github.com/sangm1n/DKUniversity/tree/master/%EB%AA%A8%EB%B0%94%EC%9D%BC%ED%94%8C%EB%9E%AB%ED%8F%BC) |
 | 2018 | 2 | 컴퓨터구조 | [Computer Architecture](https://github.com/sangm1n/DKUniversity/tree/master/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0) |
