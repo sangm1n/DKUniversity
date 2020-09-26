@@ -1,5 +1,5 @@
-## Dept. of Software, Dankook University
-### :books: Course Information
+# Dept. of Software, Dankook University
+## :books: Course Information
 
 | Year| Semester | Subject(KOR) | Subject(ENG) | Grade |
 | :---: | :---: | --- | --- | --- |
